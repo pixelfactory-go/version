@@ -42,7 +42,7 @@ func initConfig() {
 
 ## Makefile
 
-```
+```makefile
 BUILD_FILES = $(shell go list -f '{{range .GoFiles}}{{$$.Dir}}/{{.}}\
 {{end}}' ./...)
 
