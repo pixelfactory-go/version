@@ -1,3 +1,3 @@
 module go.pixelfactory.io/pkg/version
 
-go 1.15
+go 1.21
