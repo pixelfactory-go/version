@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/pixelfactory-go/version/compare/v0.2.0...v0.2.1) (2026-01-16)
+
+
+### Bug Fixes
+
+* update goreleaser config to version 2 ([#7](https://github.com/pixelfactory-go/version/issues/7)) ([43d96b4](https://github.com/pixelfactory-go/version/commit/43d96b4575eccd5784b4a422e62a2c601bd810d7))
+
 ## [0.2.0](https://github.com/pixelfactory-go/version/compare/v0.1.0...v0.2.0) (2026-01-16)
 
 
