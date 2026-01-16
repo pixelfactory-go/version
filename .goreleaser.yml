@@ -1,8 +1,42 @@
+# This is a library package, not an executable, so we skip building binaries
 builds:
   - skip: true
+
+# Announce releases
+announce:
+  skip: false
+
+# Changelog configuration
 changelog:
   sort: asc
+  use: github
   filters:
     exclude:
       - "^docs:"
       - "^test:"
+      - "^chore:"
+      - Merge pull request
+      - Merge branch
+  groups:
+    - title: "New Features"
+      regexp: "^.*feat[(\\w)]*:+.*$"
+      order: 0
+    - title: "Bug Fixes"
+      regexp: "^.*fix[(\\w)]*:+.*$"
+      order: 1
+    - title: "Improvements"
+      regexp: "^.*refactor[(\\w)]*:+.*$"
+      order: 2
+    - title: "Documentation"
+      regexp: "^.*docs[(\\w)]*:+.*$"
+      order: 3
+    - title: "Others"
+      order: 999
+
+# Release configuration
+release:
+  github:
+    owner: pixelfactory-go
+    name: version
+  prerelease: auto
+  draft: false
