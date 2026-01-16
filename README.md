@@ -1,7 +1,7 @@
 # version
 
 [![Go Reference](https://pkg.go.dev/badge/go.pixelfactory.io/pkg/version.svg)](https://pkg.go.dev/go.pixelfactory.io/pkg/version)
-[![CI](https://github.com/pixelfactory-go/version/actions/workflows/tests.yml/badge.svg)](https://github.com/pixelfactory-go/version/actions/workflows/tests.yml)
+[![CI](https://github.com/pixelfactory-go/version/actions/workflows/tests.yml/badge.svg)](https://github.com/pixelfactory-go/version/actions/workflows/ci.yml)
 [![Go Report Card](https://goreportcard.com/badge/go.pixelfactory.io/pkg/version)](https://goreportcard.com/report/go.pixelfactory.io/pkg/version)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
