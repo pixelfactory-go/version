@@ -1,3 +1,5 @@
+version: 2
+
 # This is a library package, not an executable, so we skip building binaries
 builds:
   - skip: true
