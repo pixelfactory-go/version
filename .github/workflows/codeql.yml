@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   analyze:
-    name: AnalyzeExpected
+    name: Analyze Expected
     runs-on: ubuntu-latest
     permissions:
       contents: read
