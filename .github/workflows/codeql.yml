@@ -4,7 +4,6 @@ on:
   push:
     branches: [ "main", "master" ]
   pull_request:
-    branches: [ "main", "master" ]
   schedule:
     - cron: '0 0 * * 1'  # Run every Monday at midnight
 
@@ -13,7 +12,7 @@ permissions:
 
 jobs:
   analyze:
-    name: Analyze Expected
+    name: Analyze
     runs-on: ubuntu-latest
     permissions:
       contents: read
