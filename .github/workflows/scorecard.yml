@@ -6,11 +6,11 @@ on:
 
   # Run on pushes to default branch
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
   # Run on schedule (weekly)
   schedule:
-    - cron: '0 2 * * 1'  # Every Monday at 2am
+    - cron: "0 2 * * 1" # Every Monday at 2am
 
   # Allow manual trigger
   workflow_dispatch:
