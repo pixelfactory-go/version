@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/pixelfactory-go/version/compare/v0.2.2...v0.2.3) (2026-01-21)
+
+
+### Bug Fixes
+
+* **workflows:** standardize job names and formatting in CI and release workflows ([#16](https://github.com/pixelfactory-go/version/issues/16)) ([d0f8eec](https://github.com/pixelfactory-go/version/commit/d0f8eeccd437628ea2a334681ddeac7700c23bc9))
+
 ## [0.2.1](https://github.com/pixelfactory-go/version/compare/v0.2.0...v0.2.1) (2026-01-16)
 
 
