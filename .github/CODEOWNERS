@@ -7,34 +7,11 @@
 # More info: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 # Default owner for everything in the repo
-# This will be requested for review on all PRs unless a later match takes precedence
+# All PRs will request review from the maintainers team
 * @pixelfactory-go/maintainers
 
-# GitHub Actions workflows
-# Require review from security/DevOps team for workflow changes
-/.github/workflows/ @pixelfactory-go/devops
-
-# Security-related files
-# Require review from security team
-/SECURITY.md @pixelfactory-go/security
-/.github/dependabot.yml @pixelfactory-go/security
-
-# Release configuration
-# Require review from maintainers for release configuration changes
-/.goreleaser.yml @pixelfactory-go/maintainers
-/.github/workflows/release-please.yml @pixelfactory-go/maintainers
-
-# Core Go code
-# Require review from Go developers
-/*.go @pixelfactory-go/go-developers
-
-# Documentation
-# Documentation changes can be reviewed by tech writers or maintainers
-/*.md @pixelfactory-go/maintainers
-/CONTRIBUTING.md @pixelfactory-go/maintainers
-
-# Build and tooling configuration
-/Makefile @pixelfactory-go/devops
-/.golangci.yml @pixelfactory-go/devops
-/.pre-commit-config.yaml @pixelfactory-go/devops
-/go.mod @pixelfactory-go/go-developers
+# You can add more specific ownership rules as you create additional teams:
+# Example:
+# /.github/workflows/ @pixelfactory-go/devops
+# /SECURITY.md @pixelfactory-go/security
+# /*.go @pixelfactory-go/go-developers
